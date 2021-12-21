@@ -1,5 +1,10 @@
 html {
-    background-color: #fff1e5;
+    background-color: #fff;
+}
+
+
+body {
+    margin: 0;
 }
 
 #article {
@@ -10,11 +15,11 @@ html {
 p {
     margin-right: 30%;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 1.875rem;
 }
 
-li {
+.references li {
     margin:  10px 0;
     list-style-type: none;
 }
@@ -48,7 +53,7 @@ time {
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-weight: 500;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 0.8125rem;
     line-height: 1rem;
 }
@@ -76,4 +81,42 @@ figcaption {
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
     line-height: 1.125rem;
+}
+
+
+#georgia-folklife-project {
+    text-decoration: none;
+}
+
+
+ul.topnav {
+    font-family: 'Bebas Neue', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001246;
+    font-size: 1.25rem;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.topnav li a:hover {
+  background-color: #333399;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
 }
