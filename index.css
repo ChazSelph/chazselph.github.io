@@ -8,11 +8,11 @@ body {
 }
 
 #article {
-    margin-left: 18%;
     margin-top: 10%;
 }
 
 p {
+    margin-left: 18%;
     margin-right: 30%;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.15rem;
@@ -80,7 +80,8 @@ figcaption {
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
-    line-height: 1.125rem;
+    margin-left:  15%;
+    width: 100%;
 }
 
 
@@ -120,3 +121,33 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right,
   ul.topnav li {float: none;}
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+        p {
+        margin-left: 5%;
+        font-family: nyt-imperial,georgia,'times new roman',times,serif;
+        font-size: 1.15rem;
+        line-height: 1.875rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    p {
+        margin-left: 5%;
+        font-family: nyt-imperial,georgia,'times new roman',times,serif;
+        font-size: 1.15rem;
+        line-height: 1.875rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
