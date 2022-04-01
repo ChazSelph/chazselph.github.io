@@ -6,15 +6,7 @@ html {
 body {
     margin: 0;
 }
-.navbar {
-    background-color: #001246;
-}
-.nav-link {
-    color: #fff !important;
-}
-.navbar-brand {
-    color: #fff !important;
-}
+
 #article-header {
     color: #121212;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -65,7 +57,7 @@ p {
 .references li {
 
     list-style-type: none;
-    width: 90%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -219,6 +211,9 @@ ul.topnav li.right {float: right;}
         max-width: 600px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .references li {
+        width: 90%;
     }
 }
 
