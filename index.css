@@ -101,11 +101,10 @@ time {
     text-align:  center;
 }
 figcaption {
-    font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     width: 600px;
     max-width: 600px;
     margin-left: auto;
@@ -181,6 +180,7 @@ ul.topnav li.right {float: right;}
       max-width: 600px;
       margin-left: 20px;
       margin-right: 20px;
+      margin-top: 20px;
       text-align: left;
     }
 
