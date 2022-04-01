@@ -36,8 +36,11 @@ p {
 }
 
 .references li {
-    margin:  10px 0;
+
     list-style-type: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -52,10 +55,12 @@ hr {
     width:  70%;
 }
 
-#counties {
+.image-class {
     display: block;
     width: 100%;
     max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -89,10 +94,7 @@ time {
 
 #fieldworkers {
     height: auto;
-    max-width: 600px;
     vertical-align: top;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #reference-header {
@@ -104,8 +106,10 @@ figcaption {
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
-    margin-left:  15%;
-    width: 100%;
+    width: 600px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
