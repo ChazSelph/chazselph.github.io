@@ -6,8 +6,15 @@ html {
 body {
     margin: 0;
 }
-
-
+.navbar {
+    background-color: #001246;
+}
+.nav-link {
+    color: #fff !important;
+}
+.navbar-brand {
+    color: #fff !important;
+}
 #article-header {
     color: #121212;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
