@@ -175,10 +175,10 @@ ul.topnav li.right {float: right;}
         font-family: nyt-imperial,georgia,'times new roman',times,serif;
         font-size: 1.25rem;
         line-height: 1.875rem;
-        width: calc(100% - 40px);
+        width: calc(100% - 20px);
         max-width: 600px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     time {
         width: calc(100% - 40px);
