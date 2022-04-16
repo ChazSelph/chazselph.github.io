@@ -96,7 +96,10 @@ p {
     margin-right: auto;
 }
 
-
+#references {
+    width: 100%;
+    max-width: 600px;
+}
 
 h1 {
     color: #121212;
