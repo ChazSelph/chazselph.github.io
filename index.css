@@ -111,7 +111,7 @@ blockquote {
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.23rem;
     line-height: 1.875rem;
-    font-style: italic;
+    font-style: italic !important;
     width: 100%;
     max-width: 600px;
     margin: 0 auto 15px auto !important;
