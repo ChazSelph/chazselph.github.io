@@ -98,7 +98,7 @@ p {
 h3, h4 {
 
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    width: 600px;
+    width: 100%;
     max-width: 600px;
     margin-bottom: 15px;
     margin-left: auto;
@@ -109,9 +109,10 @@ blockquote {
     border-left: 4px solid purple;
     padding-left: 10px;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    font-size: 1.15rem;
+    font-size: 1.23rem;
     line-height: 1.875rem;
-    width: 600px;
+    font-style: italic;
+    width: 100%;
     max-width: 600px;
     margin: 0 auto 15px auto !important;
 }
