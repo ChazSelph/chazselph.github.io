@@ -12,6 +12,9 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+a {
+    text-decoration: none !important;
+}
 #product-image {
     display: block;
     width: 100%;
@@ -95,12 +98,26 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+.blockquote-signature {
+    float: right;
+    text-decoration: none;
+}
+.recent-posts {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.recent-posts-hr {
+    width: 100%;
+    margin: auto !important;
+    margin-bottom: 25px !important;
+}
 h3, h4 {
 
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     width: 100%;
     max-width: 600px;
-    margin-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -114,7 +131,7 @@ blockquote {
     font-style: italic !important;
     width: 100%;
     max-width: 600px;
-    margin: 0 auto 15px auto !important;
+    margin: 0 auto 25px auto !important;
 }
 
 #references {
