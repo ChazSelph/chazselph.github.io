@@ -26,6 +26,7 @@ a {
 #post-title {
     text-decoration: none;
     color:  black;
+    font-family: 'Radio Canada', sans-serif;
 }
 /* stylelint-disable selector-list-comma-newline-after */
 
@@ -44,7 +45,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: 'Radio Canada', sans-serif;
 }
 
 .display-4 {
@@ -105,6 +106,7 @@ p {
 .recent-posts {
     text-align: center;
     padding-bottom: 15px;
+    font-family: 'Radio Canada', sans-serif;
 }
 .recent-posts-hr {
     width: 100%;
