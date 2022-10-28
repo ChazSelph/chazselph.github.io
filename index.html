@@ -7,24 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Posts</title>
+    <title>Chaz Selph | Posts</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQZ3RFS7FX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PQZ3RFS7FX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag('config', 'G-PQZ3RFS7FX');
+    </script>
 
-  gtag('config', 'G-PQZ3RFS7FX');
-</script>
-
+    <script src="https://kit.fontawesome.com/d5ee0294cc.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -33,11 +34,25 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
+
+<!-- 
+    <a class="navbar-brand" href="index.html">
+      <div class="logo-image">
+            <img src="img/book3.jpg" class="img-fluid">
+      </div>
+    </a>
+ -->
+
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="index.html">chaz|selph</a>
+    <a class="navbar-brand" href="index.html">Chaz Selph</a>
+
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Posts <span class="sr-only"></span></a>
+        <a class="nav-link" href="index.html">Posts<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About<span class="sr-only"></span></a>
       </li>
     </ul>
     
@@ -50,16 +65,44 @@
 
 
   <h1 class="recent-posts">Recent Posts</h1>
-  <hr class="recent-posts-hr">
-  <div id="posts-container" class="container">
+  <!-- <hr class="recent-posts-hr"> -->
+  <div class="container">
 
+    <div id="post-row" class="row">
+      <div class="col-sm-4">
+        <a href="mark-twain.html"><img id="product-image" src="img/twain-house.jpg" alt="Mark Twain House and Museum"></a>
+      </div>
+        <div class="col-sm-8">
+          <div class="row">
+            <a class="post-title" href="mark-twain.html"><h2>Mark Twain, A National Treasure</h2></a>
+          </div>
+
+          <div class="row">
+              <div class="col-sm">
+                <a href="#" class="badge badge-light">Literature</a>
+                <a href="#" class="badge badge-light">Travel</a>
+                <a href="#" class="badge badge-light">Read-along</a>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm created_at_text">
+                  <i class="material-icons" style="font-size:15px;">calendar_today</i> October 27, 2022
+              </div>
+          </div>
+         
+          <div class="row">
+            <p class="post_body">If you ever find yourself in Connecticut, I highly recommend your itinerary include a visit to a particular National Historic Landmark—the once home of prolific American writer Mark Twain.</p>
+          </div> 
+        </div>
+    </div>
+<hr class="recent-posts-hr">  
     <div id="post-row" class="row">
           <div class="col-sm-4">
             <a href="the-taiwan-question.html"><img id="product-image" src="img/taiwan-map.jpg" alt="Map of Taiwan"></a>
           </div>
             <div class="col-sm-8">
               <div class="row">
-                <h2><a id="post-title" href="the-taiwan-question.html">The Taiwan Question</a></h2>
+                <a class="post-title" href="the-taiwan-question.html"><h2>The Taiwan Question</h2></a>
               </div>
 
               <div class="row">
@@ -70,13 +113,13 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm" id="created_at_text">
-                        Posted at August 23 18:00 EST
+                  <div class="col-sm created_at_text">
+                    <i class="material-icons" style="font-size:15px;">calendar_today</i> August 23, 2022
                   </div>
               </div>
              
               <div class="row">
-                <p id="post_body">There is a growing sense of confidence in China, bordering on hubris. Nowhere does this confidence find more outlet than in the premise, commonly refrained, that “there is only one China.”</p>
+                <p class="post_body">There is a growing sense of confidence in China, bordering on hubris. Nowhere does this confidence find more outlet than in the commonly used expression “there is only one China.”</p>
               </div> 
             </div>
         </div>
@@ -84,11 +127,11 @@
 
     <div id="post-row" class="row">
           <div class="col-sm-4">
-            <a href="fraser-park.html"><img id="product-image" src="img/fraser-park-sky.png" alt="Portrait of a 21-year old Werumeus Buning"></a>
+            <a href="fraser-park.html"><img id="product-image" src="img/fraser-park-sky.png" alt="Image of the sky above Fraser Park."></a>
           </div>
             <div class="col-sm-8">
               <div class="row">
-                <h2><a id="post-title" href="fraser-park.html">An Ode to Fraser Park</a></h2>
+                <h2><a class="post-title" href="fraser-park.html">An Ode to Fraser Park</a></h2>
               </div>
 
               <div class="row">
@@ -99,13 +142,13 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm" id="created_at_text">
-                        Posted at May 8 16:00 EST
+                  <div class="col-sm created_at_text">
+                        <i class="material-icons" style="font-size:15px;">calendar_today</i> May 8, 2022
                   </div>
               </div>
              
               <div class="row">
-                <p id="post_body">In this video and text, I pay tribute to Fraser Park by taking the viewer through a cycle of seasons beginning Summer 2021 and ending Spring 2022.</p>
+                <p class="post_body">In this video and text, I pay tribute to Fraser Park by taking the viewer through a cycle of seasons beginning Summer 2021 and ending Spring 2022.</p>
               </div> 
             </div>
         </div>
@@ -114,11 +157,11 @@
 
     <div id="post-row" class="row">
           <div class="col-sm-4">
-            <a href="robert-selfe.html"><img id="product-image" src="img/yeocomico-church-1.jpg" alt="Portrait of a 21-year old Werumeus Buning"></a>
+            <a href="robert-selfe.html"><img id="product-image" src="img/yeocomico-church-1.jpg" alt="Image of Yeocomico Church."></a>
           </div>
             <div class="col-sm-8">
               <div class="row">
-                <h2><a id="post-title" href="robert-selfe.html">Robert Selfe, an English Immigrant to colonial Virginia</a></h2>
+                <h2><a class="post-title" href="robert-selfe.html">Robert Selfe, an English Immigrant to colonial Virginia</a></h2>
               </div>
 
               <div class="row">
@@ -129,13 +172,13 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm" id="created_at_text">
-                        Posted at Apr 29 17:00 EST
+                  <div class="col-sm created_at_text">
+                        <i class="material-icons" style="font-size:15px;">calendar_today</i> Apr 29, 2022
                   </div>
               </div>
              
               <div class="row">
-                <p id="post_body">Robert Selfe immigrated from south-west England to the nascent colony of Virginia. On May 20, 1665 he was granted 300 acres in the Northern Neck.</p>
+                <p class="post_body">Robert Selfe immigrated from south-west England to the nascent colony of Virginia. On May 20, 1665 he was granted 300 acres in the Northern Neck.</p>
               </div> 
             </div>
         </div>
@@ -152,7 +195,7 @@
             <div class="col-sm-8">
 
               <div class="row">
-                <h2><a id="post-title" href="remembering-werumeus-buning.html">Remembering J.W.F. Werumeus Buning</a></h2>
+                <h2><a class="post-title" href="remembering-werumeus-buning.html">Remembering J.W.F. Werumeus Buning</a></h2>
               </div>
 
               <div class="row">
@@ -163,13 +206,13 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm" id="created_at_text">
-                        Posted at Apr 15 21:00 EST
+                  <div class="col-sm created_at_text">
+                        <i class="material-icons" style="font-size:15px;">calendar_today</i> Apr 15, 2022
                   </div>
               </div>
               
               <div class="row">
-                <p id="post_body">J.W.F. Werumeus Buning was a writer and poet, born in Velp, Netherlands on May 4, 1891.</p>
+                <p class="post_body">J.W.F. Werumeus Buning was a writer and poet, born in Velp, Netherlands on May 4, 1891. In this post I share my version of an English translation for the poem Een oud vers, An old verse.</p>
               </div> 
             </div>
         </div>
@@ -186,7 +229,7 @@
             <div class="col-sm-8">
 
               <div class="row">
-                <h2><a id="post-title" href="jack-dempsey.html">An Oral History with Jack Dempsey</a></h2>
+                <h2><a class="post-title" href="jack-dempsey.html">An Oral History with Jack Dempsey</a></h2>
               </div>
 
                 <div class="row">
@@ -197,13 +240,13 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm" id="created_at_text">
-                        Posted at Apr 1 21:00 EST
+                  <div class="col-sm created_at_text">
+                       <i class="material-icons" style="font-size:15px;">calendar_today</i> Apr 1, 2022
                   </div>
               </div>
               
               <div class="row">
-                <p id="post_body"> The South-Central Georgia Folklife Project was produced as a joint effort between the American Folklife Center of the Library of Congress and the Arts Experiment Station of Abraham Baldwin Agricultural College in Tifton, Georgia. The vast collection contains nearly 25,000 items. One of these items recently captured my attention: an oral history with my great-grandfather conducted on Tuesday, July 26th, 1977.</p>
+                <p class="post_body"> The South-Central Georgia Folklife Project was produced as a joint effort between the American Folklife Center of the Library of Congress and the Arts Experiment Station of Abraham Baldwin Agricultural College in Tifton, Georgia. The vast collection contains nearly 25,000 items. One of these items recently captured my attention: an oral history with my great-grandfather conducted on Tuesday, July 26th, 1977.</p>
               </div> 
             </div>
         </div>
