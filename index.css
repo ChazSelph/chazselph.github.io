@@ -86,6 +86,7 @@ a {
 .created_at_text {
     margin-top: 5px !important;
     margin-bottom: 5px;
+    /*font-family:  "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;*/
 }
 #product-image {
     display: block;
@@ -98,7 +99,9 @@ a {
 .post-title {
     text-decoration: none;
     color: #80243F;
-    font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px !important;
+    /*font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 /* stylelint-disable selector-list-comma-newline-after */
 
@@ -178,7 +181,8 @@ p {
 }
 .recent-posts {
     text-align: center;
-    font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 50px;
 }
 .recent-posts-hr {
@@ -310,6 +314,13 @@ time {
 #reference-header {
     text-align:  center;
 }
+.references {
+    list-style: none;
+    width: 600px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 figcaption {
     line-height: 1.25rem;
     color: #666;
@@ -335,6 +346,15 @@ iframe {
     text-decoration: none;
 }
 
+
+.navbar-brand {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px !important;
+}
+.nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 23px !important;
+}
 
 ul.topnav {
     font-family: 'Bebas Neue', sans-serif;
