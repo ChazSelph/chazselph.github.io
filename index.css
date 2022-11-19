@@ -346,7 +346,9 @@ iframe {
     text-decoration: none;
 }
 
-
+.navbar {
+    padding: .5rem 1rem;
+}
 .navbar-brand {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px !important;
@@ -434,6 +436,7 @@ ul.topnav li.right {float: right;}
         margin-left: 20px;
         margin-right: 20px;
     }
+
     
 }
 
