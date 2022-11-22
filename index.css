@@ -86,7 +86,7 @@ a {
 .created_at_text {
     margin-top: 5px !important;
     margin-bottom: 5px;
-    /*font-family:  "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;*/
+    font-family:  Roboto;
 }
 #product-image {
     display: block;
@@ -390,6 +390,17 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 
+
+.taiwan-ul {
+    font-family: 'Spectral', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+    width: 100%;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
