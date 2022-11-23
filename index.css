@@ -98,7 +98,8 @@ a {
 }
 .post-title {
     text-decoration: none;
-    color: #80243F;
+/*    color: #80243F;*/
+color:#732673;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px !important;
     /*font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
@@ -313,6 +314,12 @@ time {
 
 #reference-header {
     text-align:  center;
+  font: normal 700 2.0625em/1 franklin-gothic-urw-cond,helvetica,sans-serif;
+  background-color: transparent;
+  color: black;
+  display: inline-block;
+  letter-spacing: .001em;
+  text-transform: uppercase;
 }
 .references {
     list-style: none;
