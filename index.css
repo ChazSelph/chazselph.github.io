@@ -210,7 +210,7 @@ blockquote {
     font-style: italic !important;
     width: 100%;
     max-width: 600px;
-    margin: 0 auto 45px auto !important;
+    margin: 0 auto 25px auto !important;
     padding-right: 5px;
 }
 
@@ -320,6 +320,9 @@ time {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+cite {
+  font-style: normal;
 }
 figcaption {
     line-height: 1.25rem;
