@@ -104,8 +104,9 @@ color: #8a03e8;
     font-size: 30px !important;
     /*font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
-/* stylelint-disable selector-list-comma-newline-after */
-
+.recent-posts-border {
+    border-bottom: 2px solid black;
+}
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
