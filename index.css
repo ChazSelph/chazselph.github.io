@@ -98,9 +98,9 @@ a {
 }
 .post-title {
     text-decoration: none;
-/*    color: #80243F;*/
-color: #8a03e8;
-    font-family: 'Bebas Neue', sans-serif;
+    color:  #4700b3;
+/*color: #8a03e8;*/
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px !important;
     /*font-family: "SemplicitaPro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
@@ -252,7 +252,7 @@ hr {
 .figcaption-sm {
     line-height: 1.25rem;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1rem;
     width: 100%;
     max-width: 400px;
@@ -335,7 +335,7 @@ cite {
 figcaption {
     line-height: 1.25rem;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1rem;
     width: 100%;
     max-width: 600px;
